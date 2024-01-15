@@ -3,7 +3,7 @@
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://bedroomtile.tres" type="TileSet" id=2]
 [ext_resource path="res://Assets/Map/casa/decoracioncasa/estanteria.png" type="Texture" id=3]
-[ext_resource path="res://istock-1071006450_small.jpg" type="Texture" id=4]
+[ext_resource path="res://blackBack.jpg" type="Texture" id=4]
 [ext_resource path="res://Assets/Map/casa/decoracioncasa/armario.png" type="Texture" id=5]
 [ext_resource path="res://Assets/Map/casa/decoracioncasa/cama2.png" type="Texture" id=6]
 [ext_resource path="res://Assets/Map/casa/decoracioncasa/escritorio.png" type="Texture" id=7]
@@ -239,8 +239,7 @@ points = PoolVector2Array( 0, 14.0625, 32, 14.125, 32, 14.0781, 0, 13.976 )
 position = Vector2( 319, 180 )
 
 [node name="Black" type="Sprite" parent="."]
-position = Vector2( 97.5, 45.5 )
-scale = Vector2( 5000, 5000 )
+scale = Vector2( 10, 10 )
 texture = ExtResource( 4 )
 
 [node name="Backgroud" type="TileMap" parent="."]
@@ -258,7 +257,8 @@ format = 1
 tile_data = PoolIntArray( -65539, 0, 0, -65538, 1, 0, -65537, 9, 0, -131072, 10, 0, -3, 2, 0, -2, 3, 0, -1, 8, 0, -65536, 7, 0, 131069, 4, 0, 131070, 5, 0 )
 
 [node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, -29 )
 
 [node name="MoveScene" parent="." instance=ExtResource( 8 )]
-position = Vector2( 80, -49 )
+position = Vector2( 80, -44 )
 escena = "Hallway"

@@ -38,5 +38,5 @@ func _physics_process(delta):
 		elif last_direction == Vector2(0, -1):
 			$AnimationPlayer.play("Idle_up")
 
-	motion = motion.normalized() * move_speed
-	motion = move_and_slide(motion, Vector2(0, 0))
+	motion = motion.normalized() * move_speed * delta
+	move_and_collide(motion)
