@@ -205,7 +205,7 @@ points = PoolVector2Array( 30.2418, 9.22925, 1.84374, 9.36384, 3.32421, 3.71114,
 [node name="HallWay" type="Node2D"]
 
 [node name="Black" type="Sprite" parent="."]
-scale = Vector2( 10, 10 )
+scale = Vector2( 3, 3 )
 texture = ExtResource( 11 )
 
 [node name="Background" type="TileMap" parent="."]
@@ -222,7 +222,7 @@ format = 1
 tile_data = PoolIntArray( 196618, 0, 0 )
 
 [node name="player" parent="." instance=ExtResource( 9 )]
-position = Vector2( 431, 142 )
+position = Vector2( 369, 118 )
 
 [node name="MoveScene" parent="." instance=ExtResource( 10 )]
 position = Vector2( 432, 156 )
@@ -230,4 +230,12 @@ escena = "BedRoom"
 
 [node name="MoveScene2" parent="." instance=ExtResource( 10 )]
 position = Vector2( 304, 156 )
-escena = "BedRoom"
+escena = "Livingroom"
+
+[node name="MoveScene3" parent="." instance=ExtResource( 10 )]
+position = Vector2( 432, 84 )
+escena = "Bathroom"
+
+[node name="MoveScene4" parent="." instance=ExtResource( 10 )]
+position = Vector2( 304, 84 )
+escena = "Parentsroom"
