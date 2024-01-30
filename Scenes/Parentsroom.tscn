@@ -7,6 +7,7 @@
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=5]
 
 [node name="Parentsroom" type="Node2D"]
+position = Vector2( 126, 122 )
 
 [node name="BlackBack" type="Sprite" parent="."]
 scale = Vector2( 3, 3 )
