@@ -4,7 +4,7 @@
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 7.66071, 6.04545 )
+extents = Vector2( 9.05357, 6.36363 )
 
 [sub_resource type="Animation" id=8]
 resource_name = "Idle_down"
@@ -230,7 +230,7 @@ hframes = 4
 vframes = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -0.499981, 1.5 )
+position = Vector2( -0.5, 2 )
 rotation = -3.14159
 scale = Vector2( 0.717949, -1.57143 )
 shape = SubResource( 1 )

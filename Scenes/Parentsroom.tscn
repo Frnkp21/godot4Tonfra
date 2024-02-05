@@ -23,6 +23,7 @@ tile_data = PoolIntArray( -131069, 12, 0, -131068, 12, 0, -131067, 12, 0, -13106
 position = Vector2( 0, -17 )
 tile_set = ExtResource( 2 )
 cell_size = Vector2( 32, 32 )
+show_collision = true
 format = 1
 tile_data = PoolIntArray( 8, 0, 0, 9, 1, 0, 65540, 15, 0, 65541, 11, 0, 65542, 12, 0, 65543, 15, 0, 65544, 2, 0, 65545, 3, 0, 131077, 13, 0, 131078, 14, 0 )
 
