@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=19 format=2]
+[gd_resource type="TileSet" load_steps=20 format=2]
 
 [ext_resource path="res://Assets/Map/casa/decoracioncasa/estanteria.png" type="Texture" id=1]
 [ext_resource path="res://Assets/Map/casa/decoracioncasa/cama2.png" type="Texture" id=2]
@@ -28,11 +28,14 @@ points = PoolVector2Array( 0, 0, 32, 0, 32, 10.876, 0, 10.984 )
 [sub_resource type="ConvexPolygonShape2D" id=9]
 points = PoolVector2Array( 0, 0, 32, 0, 31.8125, 10.9063, 0, 10.9688 )
 
-[sub_resource type="ConvexPolygonShape2D" id=6]
-points = PoolVector2Array( 0, 2.02295, 32, 1.99453, 32, 18.9352, 0, 18.8464 )
+[sub_resource type="ConvexPolygonShape2D" id=17]
+points = PoolVector2Array( 0, 4.07636, 32, 4.01146, 32, 19.1588, 0, 19.2237 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+points = PoolVector2Array( 0.842449, 4.14127, 0.907352, 1.02581, 5.96998, 0.831095, 5.90507, 3.94655 )
 
 [sub_resource type="ConvexPolygonShape2D" id=4]
-points = PoolVector2Array( 0, 2.0625, 21.2287, 1.9375, 21.1662, 19, 0, 18.875 )
+points = PoolVector2Array( 0, 4.01146, 20.8317, 4.01146, 21.1662, 19, 0, 19.0939 )
 
 [sub_resource type="ConvexPolygonShape2D" id=7]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
@@ -124,14 +127,20 @@ points = PoolVector2Array( 0, 14.0625, 32, 14.125, 32, 14.0781, 0, 13.976 )
 4/navigation_offset = Vector2( 0, 0 )
 4/shape_offset = Vector2( 0, 0 )
 4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-4/shape = SubResource( 6 )
+4/shape = SubResource( 17 )
 4/shape_one_way = false
 4/shape_one_way_margin = 1.0
 4/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 6 ),
+"shape": SubResource( 17 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 18 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 4/z_index = 0
@@ -394,3 +403,17 @@ points = PoolVector2Array( 0, 14.0625, 32, 14.125, 32, 14.0781, 0, 13.976 )
 18/shape_one_way_margin = 0.0
 18/shapes = [  ]
 18/z_index = 0
+19/name = "cama2.png 19"
+19/texture = ExtResource( 2 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 0, 0, 32, 32 )
+19/tile_mode = 0
+19/occluder_offset = Vector2( 0, 0 )
+19/navigation_offset = Vector2( 0, 0 )
+19/shape_offset = Vector2( 0, 0 )
+19/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+19/shape_one_way = false
+19/shape_one_way_margin = 0.0
+19/shapes = [  ]
+19/z_index = 0

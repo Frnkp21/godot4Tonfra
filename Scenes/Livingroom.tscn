@@ -325,34 +325,38 @@ tile_data = PoolIntArray( -65532, 12, 0, -65531, 12, 0, -65530, 12, 0, -65529, 1
 [node name="Deco" type="TileMap" parent="."]
 tile_set = ExtResource( 11 )
 cell_size = Vector2( 32, 32 )
+show_collision = true
 format = 1
-tile_data = PoolIntArray( 262150, 0, 0, 262151, 1, 0, 262152, 2, 0, 327686, 3, 0, 327687, 4, 0, 327688, 5, 0 )
-
-[node name="ChairTopDown" type="TileMap" parent="Deco"]
-position = Vector2( 1, 23 )
-tile_set = ExtResource( 11 )
-cell_size = Vector2( 32, 32 )
-format = 1
-tile_data = PoolIntArray( 131079, 6, 0, 196615, 7, 0, 262151, 8, 0, 327687, 9, 0 )
+tile_data = PoolIntArray( 262150, 0, 0, 262151, 16, 0, 262152, 17, 0, 327686, 3, 0, 327687, 4, 0, 327688, 5, 0 )
 
 [node name="ChairLeft" type="TileMap" parent="Deco"]
 position = Vector2( 44, 23 )
 scale = Vector2( 1.01412, 0.959472 )
 tile_set = ExtResource( 11 )
 cell_size = Vector2( 32, 32 )
+show_collision = true
 format = 1
-tile_data = PoolIntArray( 196612, 10, 0, 262148, 11, 0 )
+tile_data = PoolIntArray( 196612, 14, 0, 262148, 15, 0 )
 
 [node name="ChairRight" type="TileMap" parent="Deco"]
 position = Vector2( 24, 21 )
 scale = Vector2( 1.01412, 0.959472 )
 tile_set = ExtResource( 11 )
 cell_size = Vector2( 32, 32 )
+show_collision = true
 format = 1
-tile_data = PoolIntArray( 196616, 12, 0, 262152, 13, 0 )
+tile_data = PoolIntArray( 196616, 12, 0, 262152, 18, 0 )
 
 [node name="player" parent="." instance=ExtResource( 4 )]
 position = Vector2( 366, 137 )
+
+[node name="ChairTopDown" type="TileMap" parent="."]
+position = Vector2( 0, 23 )
+tile_set = ExtResource( 11 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+format = 1
+tile_data = PoolIntArray( 131079, 6, 0, 196615, 7, 0, 262151, 8, 0, 327687, 9, 0 )
 
 [node name="MoveScene3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 368, 54 )
@@ -360,4 +364,4 @@ escena = "Hallway"
 
 [node name="MoveScene4" parent="." instance=ExtResource( 3 )]
 position = Vector2( 368, 220 )
-escena = "Hallway"
+escena = "Street"
