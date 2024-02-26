@@ -10,6 +10,7 @@
 position = Vector2( 319, 180 )
 
 [node name="Black" type="Sprite" parent="."]
+position = Vector2( 12, 19 )
 scale = Vector2( 3, 3 )
 texture = ExtResource( 4 )
 
